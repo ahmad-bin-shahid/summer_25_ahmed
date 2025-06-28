@@ -1,9 +1,0 @@
-file format:
---> files like bed, gff, gff3, gtf, vcf etc in bioinformatics
---> enter into python
---> syntax: with open('file_name', 'r') as f:
-		fasta = f.readlines()
-		fasta.strip() # removes spaces, additional characters like (\n)
-		header = fasta[0]
-		print(fasta)
----> GFF file: Tell where the coding regions are of mrna or exon or gene i.e. coordinates of the genes
