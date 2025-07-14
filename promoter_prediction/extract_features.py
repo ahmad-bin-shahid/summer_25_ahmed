@@ -30,18 +30,6 @@ def calculate_gc_at_content(sequence):
     at_content = 1.0 - gc_content
     return gc_content, at_content
 
-def dinucleotide_repeat_score(sequence):
-    """Calculate score based on dinucleotide repeats using simple logic."""
-    sequence = str(sequence).upper()
-    dinucleotides = ['AA', 'AT', 'AC', 'AG', 'TA', 'TT', 'TC', 'TG', 
-                     'CA', 'CT', 'CC', 'CG', 'GA', 'GT', 'GC', 'GG']
-    score = 0
-    for i in range(len(sequence) - 1):
-        dinuc = sequence[i:i+2]
-        if dinuc in dinucleotides:
-            score += 1
-    return score / len(sequence) if len(sequence) > 0 else 0
-
 def tata_box_presence(sequence):
     """Check for TATA box motif variants manually."""
     sequence = str(sequence).upper()
