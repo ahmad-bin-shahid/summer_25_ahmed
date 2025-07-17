@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 
 class simpleANN(nn.Module):
-    def __init__(self, input_dim=48, output_dim=32):
+    def __init__(self, input_dim=45, output_dim=32):
         super(simpleANN, self).__init__()
         self.fc1 = nn.Linear(input_dim, output_dim)
         self.fc2 = nn.Linear(output_dim, 28)
