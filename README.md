@@ -70,7 +70,3 @@ Visualization: Matplotlib, Seaborn, Plotly
 ---> Applied Biopython for genomic and proteomic analysis
 ---> Built multiple data-driven pipelines using machine learning
 ---> Visualized complex biological datasets effectively
-
-Strengthened understanding of genomics, metagenomics, and cheminformatics
-
-📜 Licens
