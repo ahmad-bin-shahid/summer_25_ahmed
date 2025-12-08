@@ -53,20 +53,3 @@ extract_features.py: Computes sequence-based and structural features
 training.py & model.py: Train ML models (Logistic Regression, Random Forest)
 evaluate.py & visualization.py: Evaluate using ROC and confusion matrix plots
 Outputs: mapped_variants.csv, ROC and confusion matrix visualizations
-# 8. Metagenomic Data Analysis & Visualization
-Notebook: met_data_analysis_viz.ipynb
-Goal: Perform visualization and statistical exploration of metagenomic datasets.
-Focus Areas:
--> Taxonomic distribution visualization
--> Diversity analysis
--> Interactive data plots
-Tools & Technologies
-Languages: Python
-Libraries: Biopython, pandas, scikit-learn, matplotlib, seaborn, RDKit, numpy
-Data Formats: FASTA, GenBank, SDF, VCF, CSV, TSV
-Visualization: Matplotlib, Seaborn, Plotly
-Learning Outcomes
--> Mastered sequence file handling and conversion workflows
--> Applied Biopython for genomic and proteomic analysis
--> Built multiple data-driven pipelines using machine learning
--> Visualized complex biological datasets effectively
